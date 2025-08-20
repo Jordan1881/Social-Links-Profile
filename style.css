@@ -99,6 +99,7 @@ li a {
   width: 100%;
   max-width: 304px;
   height: auto;
+  font-family: "Inter Bold", sans-serif;
 }
 
 li a:hover {
