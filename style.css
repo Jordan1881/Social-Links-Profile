@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Inter Regular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter semiBold";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+  height: 960px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  max-width: 384px;
+  height: auto;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 40px 40px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card img {
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+}
+.name {
+  width: 100%;
+  max-width: 304px;
+  height: auto;
+  text-align: center;
+}
+
+.name h1 {
+  font-family: "Inter semiBold", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  color: white;
+}
+.name p {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #c4f82a;
+}
+
+.social-links {
+  width: 100%;
+  max-width: 304px;
+  height: auto;
+
+  align-items: center;
+  
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+li a {
+  display: block;
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.6s;
+  width: 100%;
+  max-width: 304px;
+  height: auto;
+}
+
+li a:hover {
+  background-color: #c4f82a;
+  color: #141414;
+}
